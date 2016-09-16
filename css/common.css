@@ -1,0 +1,49 @@
+html{
+	background:#e6e6f0;
+}
+body{
+	margin:0;
+}
+#container{
+	width:800px;
+	margin:auto;
+	padding:0px 0px 1px;
+	background:#fff;
+}
+#header{
+	margin:0px;
+	background:#cde;
+	text-align: center;
+}
+#header h1{
+	margin:0px;
+}
+#menu{
+	float: left;
+	width: 200;
+	background-color: #0dd;
+}
+#footer{
+	clear:both;
+}
+#outer{
+	margin:0px 10px 10px;
+	/*background:url(../i/right.png) repeat-y 100% 0;*/
+}
+#inner a:hover{
+	/*background:url(../i/left.png) repeat-y;*/
+	color:#f60;
+}
+#inner div.pic{
+	text-align: center;
+}
+#inner a[href$="pdf"]{
+	padding:0 5px 0 20px;
+	background:url(icon.png) no-repeat -32px 0;
+}
+.image{
+	font: 200%;
+}
+#end{
+	clear:both;
+}
