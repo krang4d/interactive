@@ -7,6 +7,7 @@ body{
 #container{
 	width:800px;
 	margin:auto;
+	margin-top: 80px;
 	padding:0px 0px 1px;
 	background:#fff;
 }
@@ -29,6 +30,8 @@ body{
 #outer{
 	margin:0px 10px 10px;
 	/*background:url(../i/right.png) repeat-y 100% 0;*/
+}
+#inner{
 }
 #inner a:hover{
 	/*background:url(../i/left.png) repeat-y;*/
