@@ -5,6 +5,8 @@ body{
 	margin:0;
 }
 #container{
+	border-style: solid;
+    border-width: 1px;
 	width:800px;
 	margin:auto;
 	margin-top: 80px;
@@ -25,20 +27,39 @@ body{
 	background-color: #0dd;
 }
 #footer{
-	clear:both;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+	margin-left: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #767676;
+    border-top: 1px solid #eee;
+}
 }
 #outer{
 	margin:0px 10px 10px;
 	/*background:url(../i/right.png) repeat-y 100% 0;*/
 }
 #inner{
+	font-size: 16px;
+	padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 }
 #inner a:hover{
 	/*background:url(../i/left.png) repeat-y;*/
-	color:#f60;
+	color:#af0;
 }
 #inner div.pic{
 	text-align: center;
+}
+#inner div.where{
+	padding-left: 20px;
+	font-size: 90%;
+	text-align: left;
 }
 #inner a[href$="pdf"]{
 	padding:0 5px 0 20px;
